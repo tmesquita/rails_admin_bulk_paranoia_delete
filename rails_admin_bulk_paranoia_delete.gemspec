@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.homepage    = ""
   s.summary     = "Custom action to bulk delete objects that acts_as_paranoid via the paranoia gem"
   s.description = "rails_admin bulk_delete action incorrectly displays an error when model is using acts_as_paranoid provided by the paranoia gem. This custom action is to provide an alternative that will work correctly with paranoia."
-
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.licenses = ["MIT"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", ">= 3.2"
 end

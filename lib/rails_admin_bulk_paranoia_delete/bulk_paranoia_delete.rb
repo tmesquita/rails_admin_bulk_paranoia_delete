@@ -43,7 +43,6 @@ module RailsAdmin
                 end
               end
 
-              byebug
               if destroyed.nil?
                 flash[:error] = t('admin.flash.error', name: pluralize(0, @model_config.label), action: t('admin.actions.bulk_paranoia_delete.done'))
               else
