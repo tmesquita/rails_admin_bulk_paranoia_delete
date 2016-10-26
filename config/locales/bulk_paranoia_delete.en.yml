@@ -1,11 +1,12 @@
 
 en:
   admin:
+    form:
+      bulk_paranoia_delete: "The following objects will be deleted, which may delete or orphan some of their related dependencies:"
     actions:
       bulk_paranoia_delete:
-        title: "Bulk Paranoia Delete"
-        menu: "Bulk Paranoia Delete for %{model_label} '%{object_label}'"
-        breadcrumb: "Bulk Paranoia Delete"
-        link: "Bulk Paranoia Delete"
-        bulk_link: "Bulk Paranoia Delete selected %{model_label_plural}"
-        done: "Bulk Paranoia Deleteed"
+        title: "Delete %{model_label_plural}"
+        menu: "Multiple delete"
+        breadcrumb: "Multiple delete"
+        bulk_link: "Delete selected %{model_label_plural}"
+        done: "deleted"
