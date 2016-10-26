@@ -1,0 +1,11 @@
+
+en:
+  admin:
+    actions:
+      bulk_paranoia_delete:
+        title: "Bulk Paranoia Delete"
+        menu: "Bulk Paranoia Delete for %{model_label} '%{object_label}'"
+        breadcrumb: "Bulk Paranoia Delete"
+        link: "Bulk Paranoia Delete"
+        bulk_link: "Bulk Paranoia Delete selected %{model_label_plural}"
+        done: "Bulk Paranoia Deleteed"
